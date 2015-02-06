@@ -1,0 +1,9 @@
+package org.jboss.ddoyle.rules;
+
+import java.lang.Number;
+
+rule "my-guided-rule"
+	dialect "mvel"
+	when
+	then
+end
