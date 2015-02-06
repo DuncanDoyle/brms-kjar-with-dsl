@@ -41,7 +41,7 @@ public class RulesTest {
 		kieSession.insert(simpleFact);
 		kieSession.fireAllRules();
 
-		assertEquals("One rule should have fired.", 1, 1);
+		assertEquals("One rule should have fired.", 2, rulesFiredListener.getNrOfRulesFired());
 	}
 
 }
