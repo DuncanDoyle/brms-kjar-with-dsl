@@ -1,0 +1,13 @@
+package org.jboss.ddoyle.rules;
+
+import org.jboss.ddoyle.rules.SimpleFact;
+
+expander mycustom.dsl
+
+rule "bla"
+when
+	There is a SimpleFact	   
+	-with id "1"
+then
+	Print "Found a simple fact with id 1."
+end
